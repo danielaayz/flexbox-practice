@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
-   background-color: #f5edb6;
-   min-width: 100vh;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 12px;
+   background-color: #f5ebd6;
 }
 
 main .wrapper {
@@ -11,7 +16,6 @@ main .wrapper {
    justify-content: space-between;
    width: 956px;
    height: 500px;
-   /* background-color: #002823; */
 }
 
 .container {
@@ -123,6 +127,10 @@ main .wrapper {
    border-radius: 4px;
    background-color: #ffff7d;
    margin: 19px;
+}
+
+.card__text {
+   align-self: baseline;
 }
 
 .card__content-17 {
