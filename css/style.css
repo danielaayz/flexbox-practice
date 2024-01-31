@@ -19,7 +19,6 @@ main .wrapper {
 }
 
 .container {
-   /* background: greenyellow; */
    display: flex;
    justify-content: space-around;
    width: 100%;
