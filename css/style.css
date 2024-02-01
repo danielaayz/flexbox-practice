@@ -119,8 +119,8 @@ main .wrapper {
 }
 
 .card__text {
-   display: table-cell;
-   margin-top: 34px;
+   display: flex;
+   align-items: center;
 }
 
 .card__content-17 {
