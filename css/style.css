@@ -11,6 +11,7 @@ body {
 main .wrapper {
    margin: 0 auto;
    margin-top: 90px;
+   flex-wrap: wrap;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -18,11 +19,11 @@ main .wrapper {
    height: 500px;
 }
 
-.container {
+/* .container {
    display: flex;
    justify-content: space-around;
    width: 100%;
-}
+} */
 
 .card__first-block {
    display: flex;
